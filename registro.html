@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styrlesregistro.css">
+    <script defer src="scriptsregistro.js"></script>
+</head>
+<body>
+    <div class="cuadro-registro">
+        <div class="boton-salir">
+            <a href="index.html">✖</a>
+        </div>
+        
+        <form class="registro-form">
+            <label for="newusername">Usuario:</label>
+            <input type="text" id="newusername" name="newusername" required>
+            
+            <label for="newpassword">Contraseña:</label>
+            <input type="password" id="newpassword" name="newpassword" required>
+            
+            <div class="show-newpassword">
+                <input type="checkbox" id="show-newpassword">
+                <label for="show-newpassword">Mostrar</label>
+            </div>
+            
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>

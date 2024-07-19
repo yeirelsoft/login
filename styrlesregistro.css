@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #a8dbf0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cuadro-registro {
+    background-color: #7cc4ea;
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.boton-salir a {
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    text-decoration: none
+}
+
+.registro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-form label {
+    margin: 10px 0 5px;
+    color: #205b9d;
+    font-weight: bold;
+
+}
+
+.registro-form input[type="text"],
+.registro-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.show-newpassword {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    color: #205b9d;
+}
+
+.show-newpassword input {
+    margin-right: 5px;
+}
+
+.registro-form button {
+    background-color: #ffffff;
+    color: #205b9d;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
